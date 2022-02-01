@@ -82,7 +82,6 @@ while lives != 0:
         if victory_len == 0:
             victory = True
             break
-        continue
     else:
         lives -= 1
         print(f"\n{user_letter} is not part of the word.\n{lives} lives remaining")
